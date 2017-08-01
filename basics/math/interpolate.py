@@ -13,6 +13,7 @@ x, y = 0, 0
 
 def setup():
     size(640, 360)
+    title("Interpolate")
     no_stroke()
 
 def draw():
