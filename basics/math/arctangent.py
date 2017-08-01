@@ -1,7 +1,7 @@
 #
 # Arctangent
 #
-# Move the mouse to change teh direction of teh eyes. The atan2()
+# Move the mouse to change the direction of the eyes. The atan2()
 # function computes the angle from each eye to the cursor.
 #
 
