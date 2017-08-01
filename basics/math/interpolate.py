@@ -23,8 +23,8 @@ def draw():
     background(51)
 
     # lerp() calculates a number between two numbers at a specific
-    # increment. The `amount` parameter is teh amount to interpoate
-    # between thw two values where 0 is equal to the first point, 0.1
+    # increment. The `amount` parameter is the amount to interpoate
+    # between the two values where 0 is equal to the first point, 0.1
     # is very near the first point, 0.5 is half-way between, etc.
     #
     # Here we are moving 5% of the way to the mouse location each
