@@ -35,6 +35,7 @@ def setup():
     global wave_width
 
     size(640, 360)
+    title("Additive Wave")
 
     wave_width = width + 16
 
