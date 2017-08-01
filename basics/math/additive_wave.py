@@ -79,4 +79,5 @@ def render_wave():
         location = x * xspacing, (height / 2) + yval
         circle(location, 8, mode='CENTER')
 
-run()
+if __name__ == '__main__':
+    run()
