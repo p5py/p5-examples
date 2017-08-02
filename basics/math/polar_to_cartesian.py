@@ -41,7 +41,7 @@ def draw():
     x = r * cos(theta)
     y = r * sin(theta)
 
-    circle((x, y), 15)
+    circle((x, y), 30)
 
     # Apply acceleration and velocity to angle (r remains static in
     # this example)

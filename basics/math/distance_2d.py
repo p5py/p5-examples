@@ -26,7 +26,7 @@ def draw():
     for x in range(0, width + 1, 40):
         for y in range(0, height + 1, 40):
             sz = dist((mouse_x, mouse_y), (x, y))
-            sz = sz / max_distance * 66
+            sz = sz / max_distance * 66 * 2
             circle((x, y), sz)
 
 if __name__ == '__main__':

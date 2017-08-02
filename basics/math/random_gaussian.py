@@ -19,7 +19,7 @@ def draw():
     x = random_gaussian(mean=(width / 2), std_dev=60)
 
     # Draw a circle at our "normal" random location.
-    circle((x, height / 2), 16)
+    circle((x, height / 2), 32)
 
 if __name__ == '__main__':
     run()

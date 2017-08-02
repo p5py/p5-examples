@@ -77,7 +77,7 @@ def render_wave():
 
     for x, yval in enumerate(yvalues):
         location = x * xspacing, (height / 2) + yval
-        circle(location, 8, mode='CENTER')
+        circle(location, 16, mode='CENTER')
 
 if __name__ == '__main__':
     run()

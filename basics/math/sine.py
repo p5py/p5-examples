@@ -28,9 +28,9 @@ def draw():
     d2 = 10 + (sin(angle + PI / 2) * diameter / 2) + diameter / 2;
     d3 = 10 + (sin(angle + PI) * diameter / 2) + diameter / 2;
 
-    circle((0, height / 2), d1 / 2)
-    circle((width / 2, height / 2), d2 / 2)
-    circle((width, height / 2), d3 / 2)
+    circle((0, height / 2), d1)
+    circle((width / 2, height / 2), d2)
+    circle((width, height / 2), d3)
 
     angle += 0.04
 

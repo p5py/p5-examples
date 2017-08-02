@@ -22,8 +22,8 @@ def draw():
     c = remap(mouse_x, (0, width), (0, 175))
 
     # Scale the mouse_x value the range (0, 640) to the equivalent
-    # value in the range(20, 150)
-    radius = remap(mouse_x, (0, width), (20, 150))
+    # value in the range(20, 300)
+    radius = remap(mouse_x, (0, width), (20, 300))
 
     fill(255, c, 0)
     circle((width / 2, height / 2), radius)

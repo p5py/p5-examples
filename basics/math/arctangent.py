@@ -13,7 +13,7 @@ class Eye:
     def __init__(self, x, y, size):
         self.x = x
         self.y = y
-        self.size = size / 2
+        self.size = size
         self.angle = 0
 
     def update(self, mx, my):
@@ -29,7 +29,7 @@ class Eye:
             rotate(self.angle)
             fill(153, 204, 0)
 
-            circle((self.size / 2, 0), self.size / 2)
+            circle((self.size / 4, 0), self.size / 2)
 
 
 def setup():

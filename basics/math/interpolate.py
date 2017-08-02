@@ -34,7 +34,7 @@ def draw():
     y = lerp(y, mouse_y, 0.05)
 
     fill(255)
-    circle((x, y), 33)
+    circle((x, y), 66)
 
 if __name__ == '__main__':
     run()
