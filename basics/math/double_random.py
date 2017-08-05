@@ -17,7 +17,6 @@ def setup():
     title("Double Random")
     background(0)
     stroke(255)
-    set_frame_rate(1)
 
 def draw():
     background(0)
@@ -31,4 +30,4 @@ def draw():
         rand += random_uniform(-5, 5)
 
 if __name__ == '__main__':
-    run()
+    run(frame_rate=1)

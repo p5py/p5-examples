@@ -27,7 +27,6 @@ def setup():
     title("p5 Snake")
 
     no_stroke()
-    set_frame_rate(15)
 
 def draw():
     global head
@@ -110,4 +109,4 @@ def key_pressed(event):
             background(pause_overlay_color)
 
 if __name__ == '__main__':
-    run()
+    run(frame_rate=15)
