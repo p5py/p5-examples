@@ -12,12 +12,13 @@ def setup():
     no_stroke()
 
 def draw():
+    background(204)
     draw_circle(width/2, 280, 6)
 
 def draw_circle(x, radius, level):
     tt = 126 * level / 4
     fill(tt)
-    circle((x, height/2), radius)
+    circle((x, height/2), radius * 2)
     if level > 1:
         draw_circle(x - radius / 2, radius / 2, level - 1)
         draw_circle(x + radius / 2, radius / 2, level - 1)
