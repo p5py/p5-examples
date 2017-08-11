@@ -86,18 +86,18 @@ def key_pressed(event):
     global paused
     global velocity
 
-    if event.key in ['UP', 'DOWN', 'RIGHT', 'LEFT']:
+    if event.key in ['UP', 'DOWN', 'RIGHT', 'LEFT', 'H', 'J', 'K', 'L']:
         paused = False
-        if event.key == 'UP':
+        if event.key == 'UP' or event.key == 'K':
             velocity.x = 0
             velocity.y = -1
-        elif event.key == 'DOWN':
+        elif event.key == 'DOWN' or event.key == 'J':
             velocity.x = 0
             velocity.y = 1
-        elif event.key == 'RIGHT':
+        elif event.key == 'RIGHT' or event.key == 'L':
             velocity.x = 1
             velocity.y = 0
-        elif event.key == 'LEFT':
+        elif event.key == 'LEFT' or event.key == 'H':
             velocity.x = -1
             velocity.y = 0
     elif event.key == 'SPACE':
