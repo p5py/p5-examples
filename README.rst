@@ -2,7 +2,7 @@ p5 examples
 ===========
 
 This repository contains example code for `p5
-<https://p5py.github.com/`_. All examples are sorted in folders as
+<https://p5py.github.com/>`_. All examples are sorted in folders as
 follows:
 
 - `basics` -- ported examples from "Basic" Processing examples.
