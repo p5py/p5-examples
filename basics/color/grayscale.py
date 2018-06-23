@@ -37,7 +37,6 @@ def draw():
 
 def key_pressed(event):
     global lerp_bands
-    print(event.key)
 
     if event.key == 's':
         start_color.r = random_uniform(0, 255)
