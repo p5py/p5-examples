@@ -36,25 +36,25 @@ def setup():
     size(640, 360)
 
     star_one = star(0, 0, 5, 70, 3)
+    star_one.translate(width * 0.2, height * 0.5)
+
     star_two = star(0, 0, 80, 100, 40)
+    star_two.translate(width * 0.5, height * 0.5)
+
     star_three = star(0, 0, 30, 70, 5)
+    star_three.translate(width * 0.8, height * 0.5)
+
 
 def draw():
     background(102)
-    with push_matrix():
-        translate(width * 0.2, height * 0.5)
-        rotate(frame_count / 200)
-        draw_shape(star_one)
+    star_one.rotate(0.005)
+    draw_shape(star_one)
 
-    with push_matrix():
-        translate(width * 0.5, height * 0.5)
-        rotate(frame_count / 400)
-        draw_shape(star_two)
+    star_two.rotate(0.0025)
+    draw_shape(star_two)
 
-    with push_matrix():
-        translate(width * 0.8, height * 0.5)
-        rotate(frame_count / -100)
-        draw_shape(star_three)
+    star_three.rotate(-0.01)
+    draw_shape(star_three)
 
 if __name__ == '__main__':
     run()
