@@ -1,10 +1,10 @@
 from p5 import *
 
-img1 = load_image('../raspberries-512.jpg')
-img2 = load_image('../raspberries-512.jpg')
+img1 = load_image('../raspberries-256.jpg')
+img2 = load_image('../raspberries-256.jpg')
 
 def setup():
-    size(1024, 512)
+    size(2 * img1.height, img1.height)
     no_loop()
 
 def draw():
