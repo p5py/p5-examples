@@ -23,5 +23,9 @@ were originally written by Ben Fry and are in the Public domain. All
 of Daniel Shiffman's examples are also in the public domain. The
 copyright for other credited files remains with the original authors.
 
+All images have been taken from the Wikimedia Commons. Please refer to
+the `ATTRIBUTION <ATTRIBUTION>`_ file for usage information for each
+image.
+
 The ported code and new examples are licensed under the MIT License.
 See `LICENSE <LICENSE>`_ for details.
