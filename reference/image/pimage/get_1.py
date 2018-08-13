@@ -1,5 +1,4 @@
 from p5 import *
-
 lake = load_image('../lake-512.jpg')
 
 def setup():

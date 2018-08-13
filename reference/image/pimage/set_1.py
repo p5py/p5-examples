@@ -13,6 +13,7 @@ def draw():
             soyuz[px, py] = white
 
     image(soyuz, (0, 0))
+    soyuz.save("soy.png")
 
 if __name__ == '__main__':
     run()
